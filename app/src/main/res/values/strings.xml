@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tour Guide App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_1">Restaurants</string>
+    <string name="tab_2">Cafe</string>
+    <string name="tab_3">Mountains</string>
+    <string name="tab_4">Mall</string>
+    <string name="product_detail_activity">Details</string>
+
+    <string name="product_1_details">In the year 1418 AH, romantic restaurants began to receive their guests in its first branch, and it has continued since that date in preparing authentic folk food, by paying attention to every detail of its distinctive taste and high quality, and presenting it in the most delicious form,
+        The romantic restaurants chain extends to 30 branches, 5 of which are under construction, covering the areas of Riyadh, Al-Kharj, Al-Qassim, Al-Ahsa, Dammam, Jeddah, Madinah and the Kingdom of Bahrain
+        All of this made the brand of the romantic restaurant chain an important place in the mind of the consumer through hard and dedicated work to become a leading and distinguished brand in the world of food in the Kingdom of Saudi Arabia.</string>
+
+
+    <string name="product_2_details">I am very pleased and honored to welcome you to the Al-Baik Foods Ltd. website, which will give you a distinct window from which you can look at the Al-Baik world, so that you can learn about our beginnings, the path of our growth, our accomplishments and our future aspirations.
+        The story of Al-Baik began in 1974 when my father, Shakur Abu Ghazaleh - may God have mercy on him - decided to turn his dream of owning a restaurant company that had all the reasons for success and excellence into a tangible reality. After years of hard and hard work in providing a distinguished service to our customers in the world of restaurants, we are proud of our continuity in preserving the Al Baik heritage, and we cherish all the pride in our outstanding success in developing the Al Baik concept, which allowed the Al Baik chain to satisfy hundreds of millions of customers over many years.
+        Through hard work and sincerity. we were able to achieve our ultimate goal, which is to provide high-quality chicken meals and seafood to successive generations of our loyal customers, and to provide them with a quick service and deal with them kindly and gentle, in an atmosphere characterized by the highest levels of hygiene and comfort, and ensure that they get value High for their money.
+        I am proudly pleased to announce that today we have more than 50 restaurants within the Al Baik chain of restaurants, and we will continue to expand in commitment to the principle of reaching our customers wherever they are.
+        There are many goals that we seek to achieve through this website, the most important of which is to become the official site of the Beck a primary means for us to express our thanks and appreciation to our customers, and the team of our employees and partners who played an important role in the arrival of Al-Bik restaurants to this prestigious position that it enjoys as a favorite brand and name Everyone has confidence.
+        I invite you to browse the site and learn about the history of Al Baik Food Systems Limited, and enjoy the success stories of our team members. I am also pleased to invite you to submit your contributions and comments, and to inform us about your stories and experiences that have come across you in your visits to your favorite restaurants. Al Baik!</string>
+
+    <string name="product_3_description">Founded nearly three decades ago on the principles of exceptional value and family fun, Applebee’s® operates what is today the largest casual-dining chain in the world with approximately 2,000 locations in 50 states, 15 countries and one U.S. territory.</string>
+
+    <string name="product_4_details">The nice Shami taste you wish</string>
+    <string name="product_5_details">Atbaq Restaurant for the past 18 years has been unique in serving Samarkand style rice. Distinctive taste. we are honored by your visit</string>
+</resources>
