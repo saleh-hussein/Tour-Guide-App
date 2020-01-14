@@ -12,15 +12,14 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class FragmentFour extends Fragment {
 
-    //declare arrayList list to store the data
-    ArrayList<Product> data = new ArrayList<>();
+    //declare arrayList list to store the fragmentTwoData
+    ArrayList<Product> fragmentFourData = new ArrayList<>();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -28,29 +27,29 @@ public class FragmentFour extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_four,container,false);
 
-        //add data to arrayList
-        data.add(new Product("name4",R.drawable.bird,"056391640","website","location","details"));
-        data.add(new Product("name4",R.drawable.bird,"056391640","website","location","details"));
-        data.add(new Product("name4",R.drawable.bird,"056391640","website","location","details"));
-        data.add(new Product("name4",R.drawable.bird,"056391640","website","location","details"));
-        data.add(new Product("name4",R.drawable.bird,"056391640","website","location","details"));
+        //add fragmentTwoData to arrayList
+        fragmentFourData.add(new Product("SAHD CAFE",R.drawable.shahad_cafe,"0148354123652","https://cafe-12617.business.site/","https://maps.app.goo.gl/FhFnGcrHoBfw4b567",getResources().getString(R.string.welcome_massage)));
+        fragmentFourData.add(new Product("Rotana Café",R.drawable.rotana_cafe,"014 818 8888","https://www.movenpick.com/en/middle-east/saudi-arabia/madinah/hotel-madinah-al-munawarah/restaurants/restaurants/rotana-cafe/?utm_source=google&utm_medium=local&utm_campaign=glocal+rotana-caf%C3%A9-rest","https://maps.app.goo.gl/1pVmtqYjNEUK572a6",getResources().getString(R.string.welcome_massage)));
+        fragmentFourData.add(new Product("Lavena Cafe ",R.drawable.lavena_cafe,"014823652145","http://lavenacafe.com/","https://maps.app.goo.gl/EPQ8Ra78e7F2zq4LA",getResources().getString(R.string.welcome_massage)));
+        fragmentFourData.add(new Product("Layalina cafe",R.drawable.lyalena_cafe,"058 090 0600","https://coffee-shop-3450.business.site/","https://maps.app.goo.gl/buMKip9Nn78A6Fyw5",getResources().getString(R.string.welcome_massage)));
+        fragmentFourData.add(new Product("Mama Rotee cafe",R.drawable.mama_rotee_cafe,"011 406 1118","http://mammabunzcafe.com/language/en/","https://maps.app.goo.gl/QP1yL4GsJNAQgHnW6",getResources().getString(R.string.welcome_massage)));
 
         //declare custom adapter
-        CustomAdapter adapter = new CustomAdapter(getActivity(),data);
+        CustomAdapter adapter = new CustomAdapter(getActivity(), fragmentFourData);
 
         //link listViw and set the adapter
         ListView listView = (ListView)view.findViewById(R.id.fragment_4_list_view);
         listView.setAdapter(adapter);
 
-        //when item is clicked, go to the product details activity and pass data for the current item to it.
+        //when item is clicked, go to the product details activity and pass fragmentTwoData for the current item to it.
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
                 //get the current item object
-                Product currentObject = data.get(i);
+                Product currentObject = fragmentFourData.get(i);
 
-                //declare bundle object to carry the data from this fragment to productDetails Activity
+                //declare bundle object to carry the fragmentTwoData from this fragment to productDetails Activity
                 Bundle bundle = new Bundle();
                 bundle.putSerializable("currentObject",currentObject);
 

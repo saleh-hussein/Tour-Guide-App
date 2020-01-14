@@ -36,7 +36,7 @@ public class CustomAdapter extends ArrayAdapter <Product> {
         ImageView productImage = (ImageView)listItem.findViewById(R.id.product_image);
         TextView productName = (TextView)listItem.findViewById(R.id.product_name);
 
-        //set the data to views
+        //set the fragmentTwoData to views
         productImage.setImageResource(currentProduct.getmProductImage());
         productName.setText(currentProduct.getmProductName());
 

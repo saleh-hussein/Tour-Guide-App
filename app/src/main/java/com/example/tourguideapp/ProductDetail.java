@@ -34,13 +34,13 @@ public class ProductDetail extends AppCompatActivity {
         webSiteButton = (ImageView)findViewById(R.id.details_website_icon);
         locationButton = (ImageView)findViewById(R.id.details_location_icon);
 
-        //declare Bundle to get the data from other activities or other fragments
+        //declare Bundle to get the fragmentTwoData from other activities or other fragments
         Bundle bundle = getIntent().getExtras();
 
         //get the object  (the list item theat the user clicked on it)
         mProductCurrentObject = (Product)bundle.getSerializable("currentObject");
 
-        //set the views with its data
+        //set the views with its fragmentTwoData
         mProductName.setText(mProductCurrentObject.getmProductName());
         mDetailsProductImage.setImageResource(mProductCurrentObject.getmProductImage());
         mProductDescriptionText.setText(mProductCurrentObject.getmProductDetails());

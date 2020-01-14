@@ -4,9 +4,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tab_1">Restaurants</string>
-    <string name="tab_2">Cafe</string>
-    <string name="tab_3">Mountains</string>
-    <string name="tab_4">Mall</string>
+    <string name="tab_2">Hotels</string>
+    <string name="tab_3">Mall</string>
+    <string name="tab_4">Cafe</string>
     <string name="product_detail_activity">Details</string>
 
     <string name="product_1_details">In the year 1418 AH, romantic restaurants began to receive their guests in its first branch, and it has continued since that date in preparing authentic folk food, by paying attention to every detail of its distinctive taste and high quality, and presenting it in the most delicious form,
@@ -25,4 +25,6 @@
 
     <string name="product_4_details">The nice Shami taste you wish</string>
     <string name="product_5_details">Atbaq Restaurant for the past 18 years has been unique in serving Samarkand style rice. Distinctive taste. we are honored by your visit</string>
+
+    <string name="welcome_massage">You are Welcome</string>
 </resources>
